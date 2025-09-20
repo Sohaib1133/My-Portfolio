@@ -1,0 +1,36 @@
+#services{
+    background-color: #F3F3E0;
+}
+
+.one{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.types-services{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.types{
+    display: flex;
+    gap: 60px 130px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Libre Baskerville", serif;;
+}
+
+.business-svg, .landing-svg, .e-commerce-svg, .blog-svg, .brochure-svg{
+    height: 60px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+.blog{
+    text-align: center;
+}

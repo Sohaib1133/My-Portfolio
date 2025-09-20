@@ -1,0 +1,19 @@
+#title {
+    background: url(/images/title-design.jpg) no-repeat center center/cover;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    font-family: "Rancho", cursive;
+    font-size: 6rem;
+    color: #313A26;
+}
+
+.sub {
+    font-size: 2rem;
+    margin-top: 1rem;
+}

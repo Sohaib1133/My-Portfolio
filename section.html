@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rancho&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        .container-section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 400px;
+        }
+        
+        .left-side{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             background-color: #F5ECD5;
+        }
+        .heading-three{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 600;
+            font-size: xx-large;
+            color: #393E46;
+        }
+        .svg{
+            width: 30px;
+        }
+        .right-side{
+            background-color: #A4B465;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .paragraph{
+            width: 350px;
+            line-height: 25px;
+            text-align: justify;
+            color: #222831;
+            font-size: large;
+            background-color:#F5ECD5;
+            padding: 10px;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <section id="about-me">
+        <div class="container">
+            <div class="left-side">
+                <h2 class="heading-three">About Me</h2>
+                <img class="svg" src="/SVGs/right-arrow.svg">
+            </div>
+            <div class="right-side">
+                <div class="paragraph">
+                    <p class="about-me-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt leo ac enim tincidunt porttitor. Donec magna sem, aliquet vitae placerat eget, molestie a enim. Vestibulum efficitur arcu quis venenatis placerat. 
+                        Maecenas faucibus nulla diam, at tincidunt risus elementum vitae. Vivamus quis aliquam orci. Sed ac dolor massa. Donec commodo ac eros id dapibus. Nunc metus dolor, auctor sed pharetra at, ultricies ut dolor. 
+                        Fusce finibus nibh ipsum, sed finibus ipsum vehicula et. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        #services{
+            background-color: #F3F3E0;
+        }
+
+        .heading-four{
+            display: flex;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+
+        .types-services{
+            padding: 100px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+
+        .types{
+            display: flex;
+            gap: 60px 129px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .business-svg, .landing-svg, .e-commerce-svg, .blog-svg, .brochure-svg{
+            height: 60px;
+            display: flex;
+            justify-self: center;
+            margin-bottom: 10px;
+        }
+        .blog{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="services">
+        <div class="heading-four">
+            <h2>Services</h2>
+        </div>
+        <div class="types-services">
+            <div></div>
+            <div class="types">
+                <div class="business"><img class="business-svg" src="/SVGs/business-person.svg" alt="Business Man">Business Websites</div>
+                <div class="landing"><img class="landing-svg" src="/SVGs/landing-page.svg" alt="Landing Page">Landing Page</div>
+                <div class="e-commerce"><img class="e-commerce-svg" src="/SVGs/commerce-website.svg" alt="E-commerce">E-commerce Store</div>
+                <div class="blog"><img class="blog-svg" src="/SVGs/blog.svg" alt="Blog">Blogs</div>
+                <div class="brochure"><img class="brochure-svg" src="/SVGs/brochure.svg" alt="Brochure">Brochures</div>
+            </div>
+            <div></div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@media (min-width: 481px) and (max-width: 748px) {
+    #title {
+        height: 550px;
+        
+    }
+    .main {
+        font-size: 4rem;
+    }
+
+    .sub {
+        font-size: 1.5rem;
+    }
+    .profile-pic{
+        height: 130px;
+    }
+    .heading-one{
+        font-size: 2.5rem;
+    }
+    .text{
+        font-size: 1.2rem;
+    }
+    .skill-title {
+        font-size: 1.5rem;
+    }
+    
+    .skill-desc {
+        font-size: 1.1rem;
+    }
+    .skill-img {
+        height: 130px;
+    }
+    .heading-two{
+        font-size: 2.5rem;
+    }
+    button{
+        font-size: 1rem;
+    }
+    .social-links a {
+        font-size: 1rem;
+    }
+    .footer-container > p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:480px) {
+    #title {
+        height: 350px;
+    }
+    .main {
+        font-size: 2.5rem;
+    }
+    .sub {
+        font-size: 1rem;
+    }
+    .profile-pic{
+        height: 110px;
+    }
+    .heading-one{
+        font-size: 2.1rem;
+    }
+    .text{
+        font-size: 0.8rem;
+    }
+    .skill-title {
+        font-size: 1.3rem;
+    }
+    .skill-desc {
+        font-size: 1rem;
+    }
+    .skill-img {
+        height: 100px;
+    }
+    .heading-two{
+        font-size: 2rem;
+    }
+    button{
+        font-size: 0.8rem;
+    }
+    .social-links a {
+        font-size: 0.8rem;
+    }
+    .footer-container > p {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,13 @@
+#contact {
+    padding: 3rem 1rem;
+    background-color: #F5F5F5;
+}
+
+button {
+    font-size: 1.3rem;
+    background-color: #BAC4A3;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
